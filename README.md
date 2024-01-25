@@ -1,11 +1,8 @@
 # Unity2D-Procedural_Dungeon_Generator
 Procedural dungeon generator designed for Unity. The generator is intended for use in top-down 2D roguelike games, creating dynamic and randomized dungeon layouts. You have multiple algorithms to choose from.
 
-## Features
 
-Absolutely, let's craft a detailed and professional description for your procedural dungeon generation system, tilemap functionality, and modular design.
-
-## Dungeon Generation System
+### Dungeon Generation System
 
 The procedural dungeon generation system in this Unity project offers a versatile and customizable framework for creating dynamic and engaging 2D dungeons. The core algorithm begins with a grid-based approach, allowing the creation of multiple interconnected grids. Each grid represents a distinct section of the dungeon, and the system intelligently places them, ensuring non-overlapping layouts. The initial implementation employs a standard algorithm that generates box-sized rooms, forming the foundation of the dungeon layout.
 
@@ -17,7 +14,7 @@ One of the standout features is the ability to seamlessly integrate different al
 
 The system utilizes A* pathfinding to intelligently connect rooms, ensuring coherent and navigable dungeons. This dynamic connectivity enhances player exploration and provides a sense of continuity throughout the generated environment. The algorithm adapts to the chosen room shapes, creating paths that fit seamlessly within the layout.
 
-## Tilemap Functionality
+### Tilemap Functionality
 
 The tilemap functionality is a crucial component of the project, responsible for visually translating the generated dungeon layouts. The system utilizes binary representations to efficiently paint different tiles, including walls, floors, corners, and other elements. This binary approach simplifies the painting process, making it both robust and performance-friendly.
 
@@ -25,7 +22,7 @@ The tilemap functionality is a crucial component of the project, responsible for
 
 The binary system allows users to precisely define which tiles should appear in the dungeon, providing granular control over the visual elements. This level of customization extends to the choice of tiles for walls, floors, and other environmental features, enabling developers to tailor the dungeon's aesthetic to suit their game's theme and style.
 
-## Modular Design
+### Modular Design
 
 The project's modular design stands out as a key strength, offering flexibility and ease of customization. Creators can adjust various parameters, including room sizes, quantity, and difficulty levels. This modularity extends to object placement, with a random generator facilitating the spawning of diverse in-game elements. The modular design further enables the definition of specific tiles for painting, ensuring a cohesive and visually appealing dungeon atmosphere.
 
