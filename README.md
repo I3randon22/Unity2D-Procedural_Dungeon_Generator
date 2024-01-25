@@ -2,7 +2,7 @@
 Procedural dungeon generator designed for Unity. The generator is intended for use in top-down 2D roguelike games, creating dynamic and randomized dungeon layouts. You have multiple algorithms to choose from.
 
 
-### Dungeon Generation System
+## Dungeon Generation System
 
 The procedural dungeon generation system in this Unity project offers a versatile and customizable framework for creating dynamic and engaging 2D dungeons. The core algorithm begins with a grid-based approach, allowing the creation of multiple interconnected grids. Each grid represents a distinct section of the dungeon, and the system intelligently places them, ensuring non-overlapping layouts. The initial implementation employs a standard algorithm that generates box-sized rooms, forming the foundation of the dungeon layout.
 
