@@ -10,11 +10,11 @@ The procedural dungeon generation system in this Unity project offers a versatil
 
 One of the standout features is the ability to seamlessly integrate different algorithms into the dungeon generation process. Users can choose specific grids to replace with alternative algorithms, resulting in diverse and unique room shapes beyond the traditional box layout. This modular approach empowers creators to craft dungeons with a blend of room styles, enhancing gameplay variety and visual aesthetics.
 
-### Connection and Pathfinding
+## Connection and Pathfinding
 
 The system utilizes A* pathfinding to intelligently connect rooms, ensuring coherent and navigable dungeons. This dynamic connectivity enhances player exploration and provides a sense of continuity throughout the generated environment. The algorithm adapts to the chosen room shapes, creating paths that fit seamlessly within the layout.
 
-### Tilemap Functionality
+## Tilemap Functionality
 
 The tilemap functionality is a crucial component of the project, responsible for visually translating the generated dungeon layouts. The system utilizes binary representations to efficiently paint different tiles, including walls, floors, corners, and other elements. This binary approach simplifies the painting process, making it both robust and performance-friendly.
 
@@ -22,11 +22,11 @@ The tilemap functionality is a crucial component of the project, responsible for
 
 The binary system allows users to precisely define which tiles should appear in the dungeon, providing granular control over the visual elements. This level of customization extends to the choice of tiles for walls, floors, and other environmental features, enabling developers to tailor the dungeon's aesthetic to suit their game's theme and style.
 
-### Modular Design
+## Modular Design
 
 The project's modular design stands out as a key strength, offering flexibility and ease of customization. Creators can adjust various parameters, including room sizes, quantity, and difficulty levels. This modularity extends to object placement, with a random generator facilitating the spawning of diverse in-game elements. The modular design further enables the definition of specific tiles for painting, ensuring a cohesive and visually appealing dungeon atmosphere.
 
-### Dynamic Difficulty and Object Placement
+## Dynamic Difficulty and Object Placement
 
 The modular design allows for dynamic difficulty adjustments, influencing the distribution of enemies, chests, and other interactive elements. Higher difficulty levels correlate with increased enemy presence, while later rooms have higher chances of spawning valuable chests. The inclusion of stairs in the end room provides a seamless transition to the next floor, creating a multi-layered and immersive dungeon experience.
 
