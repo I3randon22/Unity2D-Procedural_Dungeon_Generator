@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b0573ea696844a244904654e043a743b, type: 3}
+  m_Name: DungeonSpawnerData
+  m_EditorClassIdentifier: 
+  doorHorizontalObj: {fileID: 8673525406149279170, guid: 75619b179a51ba945aa93a4b99b2d4e2, type: 3}
+  doorVerticalObj: {fileID: 1916327562592642846, guid: 6c17797f969ebaa4bbdb1af73a0da6d9, type: 3}
+  playerObj: {fileID: 7677779098996807853, guid: e3480a026e721dc4e8f78edeab7ca3be, type: 3}
+  chestObj: {fileID: 1711716428259960790, guid: 7d5a722b728935c478238eb919a4938d, type: 3}
+  enemyOneObj: {fileID: 3701258494904921081, guid: f3a28d8ac51fe1148a3624f994b25ea0, type: 3}
+  stairsObj: {fileID: 4250662217923422194, guid: ee1db1bce9a92f8488830fa88605c910, type: 3}
+  skullDecor: {fileID: 7324485383089381157, guid: e4fc16a3a45d88944965357b0d812955, type: 3}
+  crateDecor: {fileID: 983838157403260029, guid: 3fd807c367209d747b155c47284a7e31, type: 3}
+  barrelDecor: {fileID: 7702859229689602289, guid: 6aae59520bbe3444fa030fe2792ff777, type: 3}
+  pillarDecor: {fileID: 556870572620579405, guid: 31cc6602388ea3d4baaa798d7c28eb16, type: 3}
+  ironOreObj: {fileID: 4493968605843598812, guid: fa535dd8c8628aa42922555456ccd472, type: 3}

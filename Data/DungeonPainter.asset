@@ -1,0 +1,34 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c321be0d74bf4824c95fd890569d8d77, type: 3}
+  m_Name: DungeonPainter
+  m_EditorClassIdentifier: 
+  floor: {fileID: 11400000, guid: 1e306ef7d03b27c4bbdb4bb7471200c4, type: 2}
+  empty: {fileID: 11400000, guid: 0c8c03600f2994547aa2694a4c6504d8, type: 2}
+  floorTile: {fileID: 11400000, guid: 1e306ef7d03b27c4bbdb4bb7471200c4, type: 2}
+  wallTop: {fileID: 11400000, guid: da0649b785c9ec8409e19dc3c20cf07e, type: 2}
+  wallSideRight: {fileID: 11400000, guid: 51859966dfad77549a5e9dfaa856004b, type: 2}
+  wallSiderLeft: {fileID: 11400000, guid: c781da84c6670d64982213d1200e4b8b, type: 2}
+  wallBottom: {fileID: 11400000, guid: 15255453b6ece7c49a2557fac1bc0817, type: 2}
+  wallFull: {fileID: 11400000, guid: 0bc725e98a4dc5047a7896c71653034d, type: 2}
+  wallInnerCornerDownLeft: {fileID: 11400000, guid: 227081c5f2f0afa468eae4e122d97c20, type: 2}
+  wallInnerCornerDownRight: {fileID: 11400000, guid: 3ebc808cca0f63c4798a2a28090a1d53, type: 2}
+  wallDiagonalCornerDownRight: {fileID: 11400000, guid: 7fe1c76c92dfe1744833c886ac9dd03d, type: 2}
+  wallDiagonalCornerDownLeft: {fileID: 11400000, guid: ac510397e78743f4e895ee95ade5961d, type: 2}
+  wallDiagonalCornerUpRight: {fileID: 11400000, guid: 4c2a6ee07f0734740af82b932cefecd9, type: 2}
+  wallDiagonalCornerUpLeft: {fileID: 11400000, guid: 108b5cfeaf7b8554198c90aa939055f8, type: 2}
+  wallTop_Two: {fileID: 11400000, guid: 80773076b0385c84392f08b381fab188, type: 2}
+  wallTop_Three: {fileID: 11400000, guid: 5ba942e34851cc24785a72affcce804c, type: 2}
+  wallTop_Four: {fileID: 11400000, guid: 8dc36f5b9ad28e146bfd066e66c4249d, type: 2}
+  hasPaintDelay: 0
+  paintDelay: 0
+  torch: {fileID: 1879640955960896007, guid: 4d50f065c8cfd1b47b5a528358b05366, type: 3}
